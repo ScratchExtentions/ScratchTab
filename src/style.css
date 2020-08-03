@@ -9,11 +9,17 @@ html{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    backdrop-filter: blur(10px);
+ 
 }
 #navbar{
     padding: 10px;
-    background-color: rgba(0, 60, 255, 0.281);
+    background-color: rgba(255, 238, 0, 0.281);
     height: 5%;
-    backdrop-filter: blur(10px)
+    backdrop-filter: blur(20px);
+}
+#frost{
+    backdrop-filter: blur(10px);
+    width: 102%;
+    height: 102%;
+    background: rgba(255, 255, 255, 0.466);
 }
