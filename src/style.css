@@ -1,1 +1,19 @@
-
+*{
+    padding:0;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    background: url(https://source.unsplash.com/random/) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+#navbar{
+    padding: 10px;
+    background-color: rgba(0, 60, 255, 0.281);
+    height: 5%;
+    backdrop-filter: blur(10px)
+}
